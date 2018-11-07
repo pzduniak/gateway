@@ -120,6 +120,8 @@ func isTextMime(kind string) bool {
 		return true
 	case "application/xml":
 		return true
+	case "application/javascript":
+		return true
 	default:
 		return false
 	}
